@@ -15,6 +15,7 @@
 		3D1D30C71CEDAD6100846091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1D30C51CEDAD6100846091 /* LaunchScreen.storyboard */; };
 		3D1D30D21CEDAD6100846091 /* Ejercicio01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30D11CEDAD6100846091 /* Ejercicio01Tests.m */; };
 		3D1D30DD1CEDAD6100846091 /* Ejercicio01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30DC1CEDAD6100846091 /* Ejercicio01UITests.m */; };
+		3D1D30ED1CEDB25100846091 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30EC1CEDB25100846091 /* Persona.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		3D1D30D81CEDAD6100846091 /* Ejercicio01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejercicio01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1D30DC1CEDAD6100846091 /* Ejercicio01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ejercicio01UITests.m; sourceTree = "<group>"; };
 		3D1D30DE1CEDAD6100846091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1D30EB1CEDB25100846091 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		3D1D30EC1CEDB25100846091 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
+		3D1D30EE1CEDB31300846091 /* Protocolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocolo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		3D1D30B61CEDAD6100846091 /* Ejercicio01 */ = {
 			isa = PBXGroup;
 			children = (
+				3D1D30EA1CEDB20100846091 /* clases */,
 				3D1D30BA1CEDAD6100846091 /* AppDelegate.h */,
 				3D1D30BB1CEDAD6100846091 /* AppDelegate.m */,
 				3D1D30BD1CEDAD6100846091 /* ViewController.h */,
@@ -138,6 +143,16 @@
 				3D1D30DE1CEDAD6100846091 /* Info.plist */,
 			);
 			path = Ejercicio01UITests;
+			sourceTree = "<group>";
+		};
+		3D1D30EA1CEDB20100846091 /* clases */ = {
+			isa = PBXGroup;
+			children = (
+				3D1D30EB1CEDB25100846091 /* Persona.h */,
+				3D1D30EC1CEDB25100846091 /* Persona.m */,
+				3D1D30EE1CEDB31300846091 /* Protocolo.h */,
+			);
+			name = clases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1D30ED1CEDB25100846091 /* Persona.m in Sources */,
 				3D1D30BF1CEDAD6100846091 /* ViewController.m in Sources */,
 				3D1D30BC1CEDAD6100846091 /* AppDelegate.m in Sources */,
 				3D1D30B91CEDAD6100846091 /* main.m in Sources */,
