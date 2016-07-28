@@ -17,22 +17,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ChessLab_v01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQB-Xa-jxr">
-                                <rect key="frame" x="201" y="289" width="109" height="21"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="chess_mate1_00000.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yjm-wO-lnp">
+                                <rect key="frame" x="160" y="151" width="280" height="280"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Checkmate at #2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQo-pQ-UUp">
+                                <rect key="frame" x="160" y="105" width="131" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="[1/8]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIn-F9-6JY">
+                                <rect key="frame" x="404" y="105" width="36" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="30" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" value="1" minValue="1" maxValue="8" translatesAutoresizingMaskIntoConstraints="NO" id="rQ6-nJ-3Mn">
+                                <rect key="frame" x="158" y="54" width="284" height="31"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfx-5g-E5S">
+                                <rect key="frame" x="408" y="477" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="953-ab-4BT">
+                                <rect key="frame" x="160" y="477" width="30" height="30"/>
+                                <state key="normal" title="hint"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="BQB-Xa-jxr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5iU-4d-RH0"/>
-                            <constraint firstItem="BQB-Xa-jxr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WV7-lc-FHR"/>
+                            <constraint firstItem="kIn-F9-6JY" firstAttribute="trailing" secondItem="Yjm-wO-lnp" secondAttribute="trailing" id="B9p-No-cVL"/>
+                            <constraint firstItem="Yjm-wO-lnp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fst-5l-hFe"/>
+                            <constraint firstItem="rQ6-nJ-3Mn" firstAttribute="trailing" secondItem="kIn-F9-6JY" secondAttribute="trailing" id="GNM-DP-3ug"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="953-ab-4BT" secondAttribute="bottom" constant="93" id="LYF-gd-j8g"/>
+                            <constraint firstItem="kIn-F9-6JY" firstAttribute="baseline" secondItem="KQo-pQ-UUp" secondAttribute="baseline" id="Rxm-p7-qmk"/>
+                            <constraint firstItem="Rfx-5g-E5S" firstAttribute="trailing" secondItem="Yjm-wO-lnp" secondAttribute="trailing" id="Yya-KX-yua"/>
+                            <constraint firstItem="rQ6-nJ-3Mn" firstAttribute="leading" secondItem="KQo-pQ-UUp" secondAttribute="leading" id="hvI-dB-Fg8"/>
+                            <constraint firstItem="953-ab-4BT" firstAttribute="baseline" secondItem="Rfx-5g-E5S" secondAttribute="baseline" id="ode-V3-CV1"/>
+                            <constraint firstItem="953-ab-4BT" firstAttribute="leading" secondItem="Yjm-wO-lnp" secondAttribute="leading" id="prP-n0-dcj"/>
+                            <constraint firstItem="KQo-pQ-UUp" firstAttribute="leading" secondItem="Yjm-wO-lnp" secondAttribute="leading" id="vnk-Hb-icT"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="227" y="327"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chess_mate1_00000.png" width="392" height="394"/>
+    </resources>
 </document>

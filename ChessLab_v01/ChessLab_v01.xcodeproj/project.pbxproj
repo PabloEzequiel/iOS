@@ -15,6 +15,21 @@
 		3D9FC0BF1D49AE5700501854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0BD1D49AE5700501854 /* LaunchScreen.storyboard */; };
 		3D9FC0CA1D49AE5800501854 /* ChessLab_v01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0C91D49AE5800501854 /* ChessLab_v01Tests.m */; };
 		3D9FC0D51D49AE5800501854 /* ChessLab_v01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0D41D49AE5800501854 /* ChessLab_v01UITests.m */; };
+		3D9FC0EC1D49C2CF00501854 /* chess_mate1_00000.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E31D49C2CF00501854 /* chess_mate1_00000.png */; };
+		3D9FC0ED1D49C2CF00501854 /* chess_mate1_00001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E41D49C2CF00501854 /* chess_mate1_00001.png */; };
+		3D9FC0EE1D49C2CF00501854 /* chess_mate1_00002.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E51D49C2CF00501854 /* chess_mate1_00002.png */; };
+		3D9FC0EF1D49C2CF00501854 /* chess_mate1_00003.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E61D49C2CF00501854 /* chess_mate1_00003.png */; };
+		3D9FC0F01D49C2CF00501854 /* chess_mate1_00004.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E71D49C2CF00501854 /* chess_mate1_00004.png */; };
+		3D9FC0F11D49C2CF00501854 /* chess_mate1_00005.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E81D49C2CF00501854 /* chess_mate1_00005.png */; };
+		3D9FC0F21D49C2CF00501854 /* chess_mate1_00006.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0E91D49C2CF00501854 /* chess_mate1_00006.png */; };
+		3D9FC0F31D49C2CF00501854 /* chess_mate1_00007.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0EA1D49C2CF00501854 /* chess_mate1_00007.png */; };
+		3D9FC0F41D49C2CF00501854 /* chess_mate1_00008.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0EB1D49C2CF00501854 /* chess_mate1_00008.png */; };
+		3D9FC0FB1D49C55600501854 /* pieza01_rey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0F51D49C55600501854 /* pieza01_rey.png */; };
+		3D9FC0FC1D49C55600501854 /* pieza02_dama.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0F61D49C55600501854 /* pieza02_dama.png */; };
+		3D9FC0FD1D49C55600501854 /* pieza03_torre.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0F71D49C55600501854 /* pieza03_torre.png */; };
+		3D9FC0FE1D49C55600501854 /* pieza04_alfil.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0F81D49C55600501854 /* pieza04_alfil.png */; };
+		3D9FC0FF1D49C55600501854 /* pieza05_caballo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0F91D49C55600501854 /* pieza05_caballo.png */; };
+		3D9FC1001D49C55600501854 /* pieza06_peon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FC0FA1D49C55600501854 /* pieza06_peon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,21 @@
 		3D9FC0D01D49AE5800501854 /* ChessLab_v01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessLab_v01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9FC0D41D49AE5800501854 /* ChessLab_v01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChessLab_v01UITests.m; sourceTree = "<group>"; };
 		3D9FC0D61D49AE5800501854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9FC0E31D49C2CF00501854 /* chess_mate1_00000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00000.png; sourceTree = "<group>"; };
+		3D9FC0E41D49C2CF00501854 /* chess_mate1_00001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00001.png; sourceTree = "<group>"; };
+		3D9FC0E51D49C2CF00501854 /* chess_mate1_00002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00002.png; sourceTree = "<group>"; };
+		3D9FC0E61D49C2CF00501854 /* chess_mate1_00003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00003.png; sourceTree = "<group>"; };
+		3D9FC0E71D49C2CF00501854 /* chess_mate1_00004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00004.png; sourceTree = "<group>"; };
+		3D9FC0E81D49C2CF00501854 /* chess_mate1_00005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00005.png; sourceTree = "<group>"; };
+		3D9FC0E91D49C2CF00501854 /* chess_mate1_00006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00006.png; sourceTree = "<group>"; };
+		3D9FC0EA1D49C2CF00501854 /* chess_mate1_00007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00007.png; sourceTree = "<group>"; };
+		3D9FC0EB1D49C2CF00501854 /* chess_mate1_00008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chess_mate1_00008.png; sourceTree = "<group>"; };
+		3D9FC0F51D49C55600501854 /* pieza01_rey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza01_rey.png; sourceTree = "<group>"; };
+		3D9FC0F61D49C55600501854 /* pieza02_dama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza02_dama.png; sourceTree = "<group>"; };
+		3D9FC0F71D49C55600501854 /* pieza03_torre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza03_torre.png; sourceTree = "<group>"; };
+		3D9FC0F81D49C55600501854 /* pieza04_alfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza04_alfil.png; sourceTree = "<group>"; };
+		3D9FC0F91D49C55600501854 /* pieza05_caballo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza05_caballo.png; sourceTree = "<group>"; };
+		3D9FC0FA1D49C55600501854 /* pieza06_peon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pieza06_peon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +147,7 @@
 		3D9FC0AF1D49AE5700501854 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D9FC0E21D49C2A600501854 /* images */,
 				3D9FC0B01D49AE5700501854 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +169,28 @@
 				3D9FC0D61D49AE5800501854 /* Info.plist */,
 			);
 			path = ChessLab_v01UITests;
+			sourceTree = "<group>";
+		};
+		3D9FC0E21D49C2A600501854 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3D9FC0F51D49C55600501854 /* pieza01_rey.png */,
+				3D9FC0F61D49C55600501854 /* pieza02_dama.png */,
+				3D9FC0F71D49C55600501854 /* pieza03_torre.png */,
+				3D9FC0F81D49C55600501854 /* pieza04_alfil.png */,
+				3D9FC0F91D49C55600501854 /* pieza05_caballo.png */,
+				3D9FC0FA1D49C55600501854 /* pieza06_peon.png */,
+				3D9FC0E31D49C2CF00501854 /* chess_mate1_00000.png */,
+				3D9FC0E41D49C2CF00501854 /* chess_mate1_00001.png */,
+				3D9FC0E51D49C2CF00501854 /* chess_mate1_00002.png */,
+				3D9FC0E61D49C2CF00501854 /* chess_mate1_00003.png */,
+				3D9FC0E71D49C2CF00501854 /* chess_mate1_00004.png */,
+				3D9FC0E81D49C2CF00501854 /* chess_mate1_00005.png */,
+				3D9FC0E91D49C2CF00501854 /* chess_mate1_00006.png */,
+				3D9FC0EA1D49C2CF00501854 /* chess_mate1_00007.png */,
+				3D9FC0EB1D49C2CF00501854 /* chess_mate1_00008.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +299,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9FC0F41D49C2CF00501854 /* chess_mate1_00008.png in Resources */,
+				3D9FC0F11D49C2CF00501854 /* chess_mate1_00005.png in Resources */,
+				3D9FC0F01D49C2CF00501854 /* chess_mate1_00004.png in Resources */,
+				3D9FC0FF1D49C55600501854 /* pieza05_caballo.png in Resources */,
+				3D9FC0EE1D49C2CF00501854 /* chess_mate1_00002.png in Resources */,
+				3D9FC0FC1D49C55600501854 /* pieza02_dama.png in Resources */,
+				3D9FC0EC1D49C2CF00501854 /* chess_mate1_00000.png in Resources */,
+				3D9FC0FD1D49C55600501854 /* pieza03_torre.png in Resources */,
+				3D9FC0F21D49C2CF00501854 /* chess_mate1_00006.png in Resources */,
+				3D9FC0FE1D49C55600501854 /* pieza04_alfil.png in Resources */,
 				3D9FC0BF1D49AE5700501854 /* LaunchScreen.storyboard in Resources */,
+				3D9FC0FB1D49C55600501854 /* pieza01_rey.png in Resources */,
+				3D9FC0EF1D49C2CF00501854 /* chess_mate1_00003.png in Resources */,
 				3D9FC0BC1D49AE5700501854 /* Assets.xcassets in Resources */,
 				3D9FC0BA1D49AE5700501854 /* Main.storyboard in Resources */,
+				3D9FC1001D49C55600501854 /* pieza06_peon.png in Resources */,
+				3D9FC0ED1D49C2CF00501854 /* chess_mate1_00001.png in Resources */,
+				3D9FC0F31D49C2CF00501854 /* chess_mate1_00007.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +567,7 @@
 				3D9FC0DB1D49AE5800501854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9FC0DC1D49AE5800501854 /* Build configuration list for PBXNativeTarget "ChessLab_v01Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +576,7 @@
 				3D9FC0DE1D49AE5800501854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D9FC0DF1D49AE5800501854 /* Build configuration list for PBXNativeTarget "ChessLab_v01UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +585,7 @@
 				3D9FC0E11D49AE5800501854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
