@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *img_board;
 @property (weak, nonatomic) IBOutlet UILabel *txt_hint_solution;
+@property (weak, nonatomic) IBOutlet UISlider *btn_slider;
 
 
 
@@ -31,6 +32,7 @@ int counter = 1;
 
 
 }
+
 
 - (IBAction)btn_hint:(id)sender {
     
@@ -57,14 +59,90 @@ int counter = 1;
     
 }
 
+
+- (IBAction)sliderValueChanged:(id)sender {
+    
+    // let roundedValue = round(sender.value / step) * step
+
+
+    int sliderValue;
+    sliderValue = lroundf(_btn_slider.value);
+    [_btn_slider setValue:sliderValue animated:YES];
+    
+    
+    // change image
+        _img_board.image = [UIImage imageNamed:[NSString stringWithFormat:@"chess_mate1_0000%i.png", sliderValue]];
+
+    
+    
+    NSLog(@"sliderValueChanged --> %i", sliderValue);
+
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // init
+    _btn_slider.continuous = YES;
+    [_btn_slider addTarget:self
+               action:@selector(sliderValueChanged:)
+     forControlEvents:UIControlEventValueChanged];
+    
+    
+
+    
+    UIImage *stretchableFillImage = [[UIImage imageNamed:@"sliderbar_fill"]
+                                     resizableImageWithCapInsets:UIEdgeInsetsMake(0.0f, 6.0f, 0.0f, 6.0f)];
+    UIImage *stretchableTrackImage = [[UIImage imageNamed:@"sliderbar_track"]
+                                      resizableImageWithCapInsets:UIEdgeInsetsMake(0.0f, 6.0f, 0.0f, 6.0f)];
+    
+    [_btn_slider setMinimumTrackImage:stretchableFillImage forState:UIControlStateNormal];
+    [_btn_slider setMaximumTrackImage:stretchableTrackImage forState:UIControlStateNormal];
+
+    
+    // change tumblr slider
+    
+    UIImage *thumbImage = [UIImage imageNamed:@"pieza06_peon.png"];
+    
+   // UIImage *thumb2 = [thumbImage imageWith]
+    UIImage *thumb2 = [self imageWithImage:  thumbImage scaledToWidth: 36.0f ];
+    
+    [_btn_slider setThumbImage:thumb2 forState:UIControlStateNormal];
+    [_btn_slider setThumbImage:thumb2 forState:UIControlStateHighlighted];
+   
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+/**
+ * How to scale an image where you only Know the width and you want a ratio.
+ * http://stackoverflow.com/questions/7645454/resize-uiimage-by-keeping-aspect-ratio-and-width
+ */
+-(UIImage*)imageWithImage: (UIImage*) sourceImage scaledToWidth: (float) i_width
+{
+    float oldWidth = sourceImage.size.width;
+    float scaleFactor = i_width / oldWidth;
+    
+    float newHeight = sourceImage.size.height * scaleFactor;
+    float newWidth = oldWidth * scaleFactor;
+    
+    UIGraphicsBeginImageContext(CGSizeMake(newWidth, newHeight));
+    [sourceImage drawInRect:CGRectMake(0, 0, newWidth, newHeight)];
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return newImage;
+}
+
+
 
 @end
