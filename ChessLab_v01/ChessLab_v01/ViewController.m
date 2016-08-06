@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *txt_hint_solution;
 @property (weak, nonatomic) IBOutlet UISlider *btn_slider;
 
+@property (weak, nonatomic) IBOutlet UITextView *txt_solution;
 
 
 @end
