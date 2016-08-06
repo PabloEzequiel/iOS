@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D2A8AA51D5576B200965F7A /* sliderbar_fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A8AA31D5576B200965F7A /* sliderbar_fill@2x.png */; };
 		3D2A8AA61D5576B200965F7A /* sliderbar_track@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A8AA41D5576B200965F7A /* sliderbar_track@2x.png */; };
+		3D2A8AE91D559A5D00965F7A /* MainTmp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A8AE81D559A5D00965F7A /* MainTmp.storyboard */; };
 		3D9FC0B11D49AE5700501854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0B01D49AE5700501854 /* main.m */; };
 		3D9FC0B41D49AE5700501854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0B31D49AE5700501854 /* AppDelegate.m */; };
 		3D9FC0B71D49AE5700501854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FC0B61D49AE5700501854 /* ViewController.m */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		3D2A8AA31D5576B200965F7A /* sliderbar_fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderbar_fill@2x.png"; sourceTree = "<group>"; };
 		3D2A8AA41D5576B200965F7A /* sliderbar_track@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderbar_track@2x.png"; sourceTree = "<group>"; };
+		3D2A8AE81D559A5D00965F7A /* MainTmp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTmp.storyboard; sourceTree = "<group>"; };
 		3D9FC0AC1D49AE5700501854 /* ChessLab_v01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessLab_v01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9FC0B01D49AE5700501854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D9FC0B21D49AE5700501854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				3D9FC0BD1D49AE5700501854 /* LaunchScreen.storyboard */,
 				3D9FC0C01D49AE5700501854 /* Info.plist */,
 				3D9FC0AF1D49AE5700501854 /* Supporting Files */,
+				3D2A8AE81D559A5D00965F7A /* MainTmp.storyboard */,
 			);
 			path = ChessLab_v01;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				3D9FC0ED1D49C2CF00501854 /* chess_mate1_00001.png in Resources */,
 				3D9FC0F31D49C2CF00501854 /* chess_mate1_00007.png in Resources */,
 				3D2A8AA51D5576B200965F7A /* sliderbar_fill@2x.png in Resources */,
+				3D2A8AE91D559A5D00965F7A /* MainTmp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
