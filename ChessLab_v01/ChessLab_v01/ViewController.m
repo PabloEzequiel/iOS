@@ -74,6 +74,16 @@ int counter = 1;
     // change image
         _img_board.image = [UIImage imageNamed:[NSString stringWithFormat:@"chess_mate1_0000%i.png", sliderValue]];
 
+
+    
+
+
+    // PI NOTIFICACTION CENTER - Setp 02 Post
+    // Post a notification to chessBoardChanged
+    // [[NSNotificationCenter defaultCenter] postNotificationName:@"chessBoardChanged" object:nil];
+
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"chessBoardChanged" object:@"ValuePased2Parameter"];
+
     
     
     NSLog(@"sliderValueChanged --> %i", sliderValue);
@@ -107,13 +117,19 @@ int counter = 1;
     // change tumblr slider
     
     UIImage *thumbImage = [UIImage imageNamed:@"pieza06_peon.png"];
-    
-   // UIImage *thumb2 = [thumbImage imageWith]
     UIImage *thumb2 = [self imageWithImage:  thumbImage scaledToWidth: 36.0f ];
+   
     
     [_btn_slider setThumbImage:thumb2 forState:UIControlStateNormal];
     [_btn_slider setThumbImage:thumb2 forState:UIControlStateHighlighted];
    
+    
+    // PI NOTIFICACTION CENTER - Step 01 Register
+    // Add an observer that will respond to chessBoardChanged
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(showMainMenu:)
+                                                 name:@"chessBoardChanged" object:nil];
+    
     
 }
 
@@ -123,6 +139,19 @@ int counter = 1;
 }
 
 
+
+
+
+// PI NOTIFICACTION CENTER - Step 03 doAction on notification received: chessBoardChanged
+// http://www.smipple.net/snippet/Sounden/Simple%20NSNotificationCenter%20example
+// the function specified in the same class where we defined the addObserver
+- (void)showMainMenu:(NSNotification *)notification {
+    NSLog(@"Received Notification ->> Someone seems to have changed excercicece");
+    
+    NSString *cadena = (NSString *)[notification object];
+    NSLog(@"Received Notification ->> Parameter Passed%@",cadena);
+    
+}
 
 
 /**
