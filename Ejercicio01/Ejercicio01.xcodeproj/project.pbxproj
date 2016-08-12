@@ -16,6 +16,14 @@
 		3D1D30D21CEDAD6100846091 /* Ejercicio01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30D11CEDAD6100846091 /* Ejercicio01Tests.m */; };
 		3D1D30DD1CEDAD6100846091 /* Ejercicio01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30DC1CEDAD6100846091 /* Ejercicio01UITests.m */; };
 		3D1D30ED1CEDB25100846091 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D30EC1CEDB25100846091 /* Persona.m */; };
+		3DF0FDEE1D5CDD8B00EB9170 /* HelloCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDED1D5CDD8B00EB9170 /* HelloCommands.m */; };
+		3DF0FDF21D5CE38F00EB9170 /* TestCallback_v1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDF11D5CE38F00EB9170 /* TestCallback_v1.m */; };
+		3DF0FDF41D5CE8FA00EB9170 /* TestCallback_v2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDF31D5CE8FA00EB9170 /* TestCallback_v2.m */; };
+		3DF0FDF81D5CECA700EB9170 /* TestCallback_v3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDF71D5CECA700EB9170 /* TestCallback_v3.m */; };
+		3DF0FDFA1D5CF91200EB9170 /* TestCallback_v4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDF91D5CF91200EB9170 /* TestCallback_v4.m */; };
+		3DF0FDFE1D5D01D500EB9170 /* TestDelegado_v1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FDFD1D5D01D500EB9170 /* TestDelegado_v1.m */; };
+		3DF0FE011D5D075E00EB9170 /* TestDelegado_v2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FE001D5D075E00EB9170 /* TestDelegado_v2.m */; };
+		3DF0FE061D5D164E00EB9170 /* TestObserver_v1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0FE051D5D164E00EB9170 /* TestObserver_v1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,22 @@
 		3D1D30EB1CEDB25100846091 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
 		3D1D30EC1CEDB25100846091 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
 		3D1D30EE1CEDB31300846091 /* Protocolo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocolo.h; sourceTree = "<group>"; };
+		3DF0FDED1D5CDD8B00EB9170 /* HelloCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloCommands.m; sourceTree = "<group>"; };
+		3DF0FDEF1D5CDDC000EB9170 /* HelloCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloCommands.h; sourceTree = "<group>"; };
+		3DF0FDF01D5CE37B00EB9170 /* TestCallback_v1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCallback_v1.h; sourceTree = "<group>"; };
+		3DF0FDF11D5CE38F00EB9170 /* TestCallback_v1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCallback_v1.m; sourceTree = "<group>"; };
+		3DF0FDF31D5CE8FA00EB9170 /* TestCallback_v2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCallback_v2.m; sourceTree = "<group>"; };
+		3DF0FDF51D5CE90900EB9170 /* TestCallback_v2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCallback_v2.h; sourceTree = "<group>"; };
+		3DF0FDF61D5CEC9300EB9170 /* TestCallback_v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCallback_v3.h; sourceTree = "<group>"; };
+		3DF0FDF71D5CECA700EB9170 /* TestCallback_v3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCallback_v3.m; sourceTree = "<group>"; };
+		3DF0FDF91D5CF91200EB9170 /* TestCallback_v4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCallback_v4.m; sourceTree = "<group>"; };
+		3DF0FDFB1D5CF92B00EB9170 /* TestCallback_v4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCallback_v4.h; sourceTree = "<group>"; };
+		3DF0FDFC1D5D01A900EB9170 /* TestDelegado_v1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDelegado_v1.h; sourceTree = "<group>"; };
+		3DF0FDFD1D5D01D500EB9170 /* TestDelegado_v1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDelegado_v1.m; sourceTree = "<group>"; };
+		3DF0FDFF1D5D06ED00EB9170 /* TestDelegado_v2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDelegado_v2.h; sourceTree = "<group>"; };
+		3DF0FE001D5D075E00EB9170 /* TestDelegado_v2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDelegado_v2.m; sourceTree = "<group>"; };
+		3DF0FE041D5D163700EB9170 /* TestObserver_v1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObserver_v1.h; sourceTree = "<group>"; };
+		3DF0FE051D5D164E00EB9170 /* TestObserver_v1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObserver_v1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +129,9 @@
 		3D1D30B61CEDAD6100846091 /* Ejercicio01 */ = {
 			isa = PBXGroup;
 			children = (
-				3D1D30EA1CEDB20100846091 /* clases */,
+				3DF0FE031D5D161900EB9170 /* testObservers */,
+				3DF0FE021D5D160100EB9170 /* testCallbacks */,
+				3DF0FDEC1D5CDD4400EB9170 /* utils */,
 				3D1D30BA1CEDAD6100846091 /* AppDelegate.h */,
 				3D1D30BB1CEDAD6100846091 /* AppDelegate.m */,
 				3D1D30BD1CEDAD6100846091 /* ViewController.h */,
@@ -153,6 +179,44 @@
 				3D1D30EE1CEDB31300846091 /* Protocolo.h */,
 			);
 			name = clases;
+			sourceTree = "<group>";
+		};
+		3DF0FDEC1D5CDD4400EB9170 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3DF0FDEF1D5CDDC000EB9170 /* HelloCommands.h */,
+				3DF0FDED1D5CDD8B00EB9170 /* HelloCommands.m */,
+				3D1D30EA1CEDB20100846091 /* clases */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		3DF0FE021D5D160100EB9170 /* testCallbacks */ = {
+			isa = PBXGroup;
+			children = (
+				3DF0FDF01D5CE37B00EB9170 /* TestCallback_v1.h */,
+				3DF0FDF11D5CE38F00EB9170 /* TestCallback_v1.m */,
+				3DF0FDF51D5CE90900EB9170 /* TestCallback_v2.h */,
+				3DF0FDF31D5CE8FA00EB9170 /* TestCallback_v2.m */,
+				3DF0FDF61D5CEC9300EB9170 /* TestCallback_v3.h */,
+				3DF0FDF71D5CECA700EB9170 /* TestCallback_v3.m */,
+				3DF0FDFB1D5CF92B00EB9170 /* TestCallback_v4.h */,
+				3DF0FDF91D5CF91200EB9170 /* TestCallback_v4.m */,
+				3DF0FDFF1D5D06ED00EB9170 /* TestDelegado_v2.h */,
+				3DF0FE001D5D075E00EB9170 /* TestDelegado_v2.m */,
+			);
+			name = testCallbacks;
+			sourceTree = "<group>";
+		};
+		3DF0FE031D5D161900EB9170 /* testObservers */ = {
+			isa = PBXGroup;
+			children = (
+				3DF0FE041D5D163700EB9170 /* TestObserver_v1.h */,
+				3DF0FE051D5D164E00EB9170 /* TestObserver_v1.m */,
+				3DF0FDFC1D5D01A900EB9170 /* TestDelegado_v1.h */,
+				3DF0FDFD1D5D01D500EB9170 /* TestDelegado_v1.m */,
+			);
+			name = testObservers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,10 +349,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF0FDF21D5CE38F00EB9170 /* TestCallback_v1.m in Sources */,
+				3DF0FDF81D5CECA700EB9170 /* TestCallback_v3.m in Sources */,
+				3DF0FDFE1D5D01D500EB9170 /* TestDelegado_v1.m in Sources */,
 				3D1D30ED1CEDB25100846091 /* Persona.m in Sources */,
+				3DF0FE011D5D075E00EB9170 /* TestDelegado_v2.m in Sources */,
 				3D1D30BF1CEDAD6100846091 /* ViewController.m in Sources */,
 				3D1D30BC1CEDAD6100846091 /* AppDelegate.m in Sources */,
+				3DF0FDEE1D5CDD8B00EB9170 /* HelloCommands.m in Sources */,
+				3DF0FDFA1D5CF91200EB9170 /* TestCallback_v4.m in Sources */,
 				3D1D30B91CEDAD6100846091 /* main.m in Sources */,
+				3DF0FDF41D5CE8FA00EB9170 /* TestCallback_v2.m in Sources */,
+				3DF0FE061D5D164E00EB9170 /* TestObserver_v1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +584,7 @@
 				3D1D30E31CEDAD6100846091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1D30E41CEDAD6100846091 /* Build configuration list for PBXNativeTarget "Ejercicio01Tests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +593,7 @@
 				3D1D30E61CEDAD6100846091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D1D30E71CEDAD6100846091 /* Build configuration list for PBXNativeTarget "Ejercicio01UITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +602,7 @@
 				3D1D30E91CEDAD6100846091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
