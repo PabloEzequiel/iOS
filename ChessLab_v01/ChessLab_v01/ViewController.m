@@ -78,7 +78,7 @@ int counter = 1;
     
 
 
-    // PI NOTIFICACTION CENTER - Setp 02 Post
+    // PI NOTIFICACTION CENTER - Setp 02 Post.
     // Post a notification to chessBoardChanged
     // [[NSNotificationCenter defaultCenter] postNotificationName:@"chessBoardChanged" object:nil];
 
